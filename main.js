@@ -20,14 +20,14 @@ function closeNav(){
 }
 
 function openAside(){
-    aside.style.transform="translateX(0%)";
+    aside.style.left="0";
     close.style.display='block';
     open.style.display='none';
     
 
 }
 function closeAside(){
-        aside.style.transform="translateX(-150%)";
+        aside.style.left="-150%";
        open.style.display='block';
        close.style.display='none';
 
