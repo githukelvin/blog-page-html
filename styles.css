@@ -439,10 +439,7 @@ input ,textarea,select{
   flex-direction: row;
 
  }
- /*======ADD USERS ======*/
- .cates{
-  margin-bottom: 5rem;
- }
+
 
 /*============= DASHBOARD ==========*/
 
@@ -664,6 +661,11 @@ input ,textarea,select{
   .main table tr:hover td{
     background-color: transparent;
   }
+   /*======ADD USERS ======*/
+ .cates{
+  margin-bottom: 5rem;
+ }
+}
   /*==========MEDIA SCREEN SMALL DEVICES======*/
 
   @media screen and (max-width:600px) {
@@ -747,6 +749,10 @@ input ,textarea,select{
         left: -150%;
         transition: var(--transition); 
       }
+       /*======ADD USERS ======*/
+ .cates{
+  margin-bottom: 8rem;
+ }
   }
     /*==========MEDIA SCREEN MOBILE DEVICES======*/
 
